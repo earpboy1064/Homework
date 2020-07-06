@@ -1,0 +1,360 @@
+
+html {
+
+  font-family: sans-serif;
+    font-size: 20px;
+  padding: 100px;
+  background-image: url("images/bats.gif");
+  background-repeat: repeat;
+  background-position: center; /* Center the image */
+}
+
+header
+{
+  width: 820px;
+  height: 90px;
+  margin:0 auto;
+  border-bottom: 5px solid black; 
+  padding-left: 0px;
+ background: rgb(255,255,255);
+background: -moz-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,131,0,1) 51%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,131,0,1) 51%, rgba(0,0,0,1) 100%);
+background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,131,0,1) 51%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+  position: relative;
+  top: -40px;
+  left: -20px;
+  bottom: 100px;
+}
+
+
+
+body
+{
+  
+  padding-top: 0px;
+  padding-left: 20px;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  border: 5px solid black;
+  margin: 0 auto;
+   
+box-shadow: 0px 0px 20px 10px #000000; 
+}
+
+.dropdownbody
+{
+  font: 22px arial, helvetica, sans-serif;
+  background-color: black;
+  
+  position: relative;
+  top: -40px;
+  left: 0px;
+  bottom: 100px;
+}
+
+
+
+.rightlink
+{
+    
+}
+
+
+.rightlink > a{color: black;text-decoration: none;list-style:none}
+
+
+
+
+
+
+.productlist
+{
+    margin-right: 20px ;
+    margin-left: 20px ;
+    padding: 2px;
+    width: 20 px;
+    
+    float:right; 
+    background-color: aqua;
+  
+
+}
+
+productlist>li
+{
+
+    color:red;
+    
+}
+
+
+
+/* unvisited link */
+ .topli > a {
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  color:black;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+.topul
+{
+padding-left: 10px;
+ margin: 0px;
+ background: black;
+    
+}
+
+ul { /* all lists... */
+ padding-left: 10px;
+ margin: 0px;
+ background: white;
+list-style: none;
+z-index: 5;
+   }
+	
+.topli { /* all list items... */
+   display:inline-block; /* set the list items left-to-right */
+   position: relative; /* set the origin for child boxes to be positioned from */
+   padding-left: 40px;
+   text-align: left;
+ 
+		}
+
+.topliorange{
+    
+    display:inline-block; /* set the list items left-to-right */
+   position: relative; /* set the origin for child boxes to be positioned from */
+   padding-left: 40px;
+   text-align: left;
+}
+topliorange>a{
+    color: darkorange; 
+    text-decoration: none; }
+
+		ul ul { /* lists within lists... */
+			position: absolute; /* place them over the top of everything */
+			left: 0; /* align them to the left of the parent list item  - necessary for some older browsers */
+			top: 100%; /* align them to the bottom of the parent list item - again only necessary for older browsers */
+			display: none; /* hide 'em */
+           
+		}
+	
+		li:hover ul { /* when list items are hovered over, do this to lists contained within them... */
+			display: block; /* show 'em */
+           background-color: black;
+		}
+
+
+h1
+{
+    
+    font-size: 150%
+        
+        
+}
+
+h2
+{
+    
+    font-size: 100%
+    
+}
+.center
+{
+    
+ position: relative;
+  top: -20px;
+  left: 100px;
+  bottom: 100px;
+}
+
+pumpkin
+{
+    
+    
+}
+h3
+{
+    
+    font-size: 200%
+        
+}
+
+.copyright{
+    
+position: relative;
+  top: -10px;
+  left: 300px;
+
+}
+
+.floatleft
+{
+    
+    float:left;
+    
+}
+.cat
+{
+  padding: 10px;
+  margin: 10px; 
+  
+  float: left;
+  position: relative;
+  top: 50px;
+  left: 00px;
+  bottom: 00px;
+}
+.cattext
+{
+    
+    margin: 10px;
+   
+}
+
+.centercatText
+{
+   position: relative;
+    top: 0px;
+  left: -180px;
+  bottom: 00px;
+}
+
+.h3Halloween
+{
+    
+    color:black;
+   /* font-style: italic;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     2px 2px 0 #000;*/
+    padding-left: 20px;
+    position: relative;
+    top: 20px;
+    left: 00px;
+    bottom: 00px;;
+  
+    
+}
+
+
+
+footer
+{
+  width: 820px;
+  height: 40px;
+  margin:0 auto;
+  border-top: 5px solid black; 
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(243deg, rgba(255,255,255,1) 0%, rgba(255,131,0,1) 51%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(243deg, rgba(255,255,255,1) 0%, rgba(255,131,0,1) 51%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(243deg, rgba(255,255,255,1) 0%, rgba(255,131,0,1) 51%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+  position: relative;
+  top: -120px;
+  left: -20px;
+  bottom: 100px;
+}
+
+.ulLeft{
+    
+background-color: white;
+    
+width = 20px;
+    
+position: relative;
+top: 100px;
+left: -0px;
+bottom: 00px;
+padding: 0px; 
+    
+}
+
+
+.alink{
+ background-color: darkorange;
+ border: 2px solid black ;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;}
+
+.liLeft > a:link {color:black}
+.liLeft > a:hover {color:black}
+
+.liLeft
+{
+    
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  
+  padding: 10px;
+  
+}
+
+.left {
+  float: left;
+  width: 160px;
+  position: relative;
+  top: -640px;
+  left: -30px;
+  bottom: 00px;
+}
+
+.right {
+  float: right;
+  width: 640px;
+   height: 500px;
+}
+
+.sideright {
+  float: right;
+  width: 240px;
+   height: 641px;
+    position: relative;
+   top: -31px;
+   left: 10px;
+   bottom: 00px;
+   background-color: goldenrod;
+}
+
+sideright > ul { /* all lists... */
+ padding-left: 10px;
+ margin: 0px;
+ background: orange;
+   
+
+   }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-container {
+  display: flex;
+  width: 100%;
+}
+.col {
+  flex: 1;
+  padding: 16px;
+}
